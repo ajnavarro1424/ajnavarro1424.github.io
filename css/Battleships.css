@@ -1,0 +1,130 @@
+td {
+  width: 40px;
+  height: 40px;
+  border: 2px solid black;
+  background-color: white;
+  text-align: center;
+}
+
+body {
+  background-image: url("https://s-media-cache-ak0.pinimg.com/originals/c4/c0/bf/c4c0bf7bb2b5cd87800bfd237c19bb04.jpg");
+
+}
+
+.row {
+  margin: 15px;
+}
+
+/*Row1 CSS styling*/
+button {
+  margin: 5px 0 20px 0;
+}
+
+#board {
+  margin: auto;
+}
+
+.titleBoard {
+  text-align: center;
+}
+
+.sideColLeft {
+  margin-top: 15%;
+  text-align: center;
+}
+
+.sideColRight {
+  margin-top: 15%;
+}
+
+.bg{
+  background-color: #da5d5d;
+}
+
+.bgrow1 {
+  background-color: red;
+}
+/*Row2 CSS Styling */
+.wikibox, .redditbox, .govbox{
+  background-color: #5cdab1;
+  padding: 10px;
+}
+
+#row2  h3 {
+  display: inline-block;
+}
+
+a{
+  color: #333;
+}
+
+/*Board Animation through jQuery*/
+.borderAn {
+  /*animation-name: borderFadeIn, borderAni, borderFadeOut;
+  animation-duration: 1s, 1s, 1s;
+  animation-delay: 0s, 1s, 3s;
+  animation-timing-function: ease-out, ease-in-out, ease-out;
+  animation-iteration-count:1, 4, 1;*/
+
+  animation: borderAni 0.7s 1;
+
+}
+
+@keyframes borderAni {
+  0% {
+    background-color: #ff852e
+  }
+  50% {
+    background-color: #ff2e2e
+  }
+  100% {
+    background-color: #ff852e
+  }
+}
+
+@keyframes borderFadeOut {
+  0% {background-color: #ff852e;}
+  100% {background-color: grey;}
+}
+
+@keyframes borderFadeIn {
+  0% {background-color: grey;}
+  100% {background-color: #ff852e;}
+}
+
+/*This is CSS associated with jQerugy commands*/
+.miss {
+  background-color: #d25555;
+}
+
+.hit {
+  background-color: #68d255;
+}
+
+.showShips {
+  background-color: #4fd3e8;
+}
+.border {
+  background-color: grey;
+
+}
+
+.carrier {
+  background-color: #00fff3;
+}
+
+.battleship, .battleship2 {
+  background-color: #ffd472;
+}
+
+.cruiser,  .cruiser2 {
+  background-color: #753ecc;
+}
+
+.destroyer, .destroyer2 {
+  background-color: #1fea26;
+}
+
+.submarine {
+background-color: #000000;
+}

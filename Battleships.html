@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script
+  src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
+    <meta charset="utf-8">
+    <title>Battleships</title>
+    <script src="js/model.js" charset="utf-8"></script>
+    <script src="js/controller.js" charset="utf-8"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/Battleships.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="row ">
+        <div class="col-sm-3 bg sideColLeft">
+          <h2 id="torps">Remaining Torpedoes: <span id="torps2">50</span> </h2>
+          <h2 id="gameWon">Game Won: <span id="gameWon2">Nope</span> </h2>
+          <button style="text-align: center;" type="button" name="button">New Game</button>
+        </div>
+
+        <div class="col-sm-6 titleBoard">
+          <h1 class="bg">Battleship: A Game for Humans</h1>
+          <table id="board">
+
+          </table>
+          <script>
+          buildTable();
+          </script>
+        </div>
+
+        <div class="col-sm-3 bg sideColRight">
+          <h3><ul id="stats">
+            <li>CARRIERS: <span id="carrier2">1</span></li>
+            <li>BATTLESHIPS: <span id="battleship2">2</span></li>
+            <li>CRUISERS: <span id="cruiser2">2</span></li>
+            <li>DESTROYERS: <span id="destroyer2">2</span></li>
+            <li>SUBMARINE: <span id="submarine2">1</span></li>
+          </ul></h3>
+        </div>
+      </div>
+    <div id="row2" class="row">
+      <div class="col-sm-4">
+        <div class="wikibox">
+            <i class="fa fa-wikipedia-w fa-3x" aria-hidden="true"></i>
+            <h3><a href="https://en.wikipedia.org/wiki/Battleship_(game)" target="_blank">BattleShip</a></h3>
+            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+        </div>
+
+      </div>
+      <div class="col-sm-4">
+        <div class="redditbox">
+          <i class="fa fa-reddit fa-3x" aria-hidden="true"></i>
+          <h3><a href="https://www.reddit.com/r/Battleship/" target="_blank">/r/Battleship</a></h3>
+          <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="govbox">
+            <i class="fa fa-gift fa-3x" aria-hidden="true"></i>
+            <h3><a href="https://donate.nmcrs.org/page/contribute/nmcrs-donate" target="_blank">Navy-Marine Charity</a></h3>
+            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+        </div>
+      </div>
+
+    </div>
+
+
+    </div>
+
+  </body>
+</html>
