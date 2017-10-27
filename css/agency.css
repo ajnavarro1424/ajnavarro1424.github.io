@@ -272,7 +272,7 @@ header .intro-text .intro-heading {
     font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     font-weight: 700;
-    font-size: 75px;
+    font-size: 40px;
     line-height: 75px;
     margin-bottom: 50px;
   }
@@ -379,8 +379,8 @@ section h3.section-subheading {
   bottom: 0;
   position: absolute;
   content: "";
-  width: 2px;
-  background-color: #f1f1f1;
+  width: 3px;
+  background-color: #3366ff;
   left: 40px;
   margin-left: -1.5px;
 }
@@ -423,10 +423,10 @@ section h3.section-subheading {
   height: 80px;
   position: absolute;
   z-index: 100;
-  background-color: #f1f1f1;
+  background-color: #3366ff;
   color: white;
   border-radius: 100%;
-  border: 7px solid #f1f1f1;
+  border: 7px solid #3366ff;
   text-align: center;
 }
 .timeline > li .timeline-image h4 {
